@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: ;
+}
 body{
   background: #1E1E1E;
   font-family: "Mulish", sans-serif;
@@ -25,7 +30,12 @@ main {
   grid-template-areas: 
   "A B C"
   "D E F";
+
+  gap: 60px;
+
+  width: 366px;
 }
 main h2{
   font-size: 35px;
 }
+
