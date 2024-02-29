@@ -20,6 +20,11 @@ footer h2{
 }
 main {
   background: #2a2a2a;
+
+  display: grid;
+  grid-template-areas: 
+  "A B C"
+  "D E F";
 }
 main h2{
   font-size: 35px;
