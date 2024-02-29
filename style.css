@@ -1,15 +1,26 @@
 body{
   background: #1E1E1E;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
 }
 h1{
   color: #02799D;
+  font-size: 58px;
 }
 h2{
   color: #E1E1E6;
 }
 p{
   color: #C4C4CC;
+  font-weight: 600;
+  font-size: 19px;
+}
+footer h2{
+  font-size: 32px;
 }
 main {
   background: #2a2a2a;
+}
+main h2{
+  font-size: 35px;
 }
