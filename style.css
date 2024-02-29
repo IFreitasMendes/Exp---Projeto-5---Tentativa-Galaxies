@@ -7,6 +7,8 @@ body{
   background: #1E1E1E;
   font-family: "Mulish", sans-serif;
   font-weight: 700;
+
+  padding: 100px;
 }
 h1{
   color: #02799D;
@@ -20,12 +22,12 @@ p{
   font-weight: 600;
   font-size: 19px;
 }
-footer h2{
+header h2{
   font-size: 32px;
+
+  margin-bottom: 62px;
 }
 main {
-  background: #2a2a2a;
-
   display: grid;
   grid-template-areas: 
   "A B C"
@@ -38,4 +40,8 @@ main {
 main h2{
   font-size: 35px;
 }
+
+.card {
+  background-color: #2a2a2a;
+  }
 
